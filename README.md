@@ -1,1 +1,1 @@
-some HTTP POST and GET exaples with ESP8266.
+some HTTP POST and GET examples with ESP8266.
