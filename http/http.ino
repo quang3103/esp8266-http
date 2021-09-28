@@ -256,14 +256,4 @@ void process() {
 void loop() {
   process();
   delay(50);
-//  Serial.println(String(++count) + " time:");
-//  int value = random(25, 35);
-//  Serial.print("POST to ADA: " + String(value) + " ==> ");
-//  httpPost(createServerNameADA("quang3103", "led", true), createPOSTBodyADA(String(value), AIO_key));
-//  Serial.print("Get from ADA: ");
-//  httpGetADA(createServerNameADA("quang3103", "led", false));
-//  Serial.print("Post to THINGSPEAK: " + getValue);
-//  Serial.print(" | Current number of points on chart: ");
-//  httpGetThingSpeak("http://api.thingspeak.com/update?api_key=0324U6WNIBX28W4G&field1=" + getValue);
-//  delay(20000);
 }
