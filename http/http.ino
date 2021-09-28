@@ -19,8 +19,6 @@ int isStartOrEnd = 0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
-  //connectWifi("C0703", "19871988");
-  //setupADA("quang3103", "aio_lKCl30rLPNMsXP4HacHgbKr3Kl21");
 }
 
 void readCommand() {
